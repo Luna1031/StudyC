@@ -1,9 +1,14 @@
+#ifdef _MSC_VER
+#define _CRT_SECURE_NO_WARNINGS
+#endif //_MSC_VER
+
 #include<stdio.h>
+#include<stdlib.h>
 
 int main()
 {
-	printf("Hello World");
-	//여기는 주석입니다. 빨강 체크는 커밋이 안되었다는 뜻.
-	//This is a comment.
+	//type here
+
+	system("pause");
 	return 0;
 }
