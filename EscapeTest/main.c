@@ -21,6 +21,10 @@ int main()
 	printf("%le \n", 0.00000314);
 	printf("%.2le \n", 0.00000314);
 
+	printf("%c \n", 'A');
+	printf("%s \n", "A");
+	printf("%c %s \n", '1', "first");
+
 	system("pause");
 	return 0;
 }
