@@ -12,7 +12,7 @@
 
 //int sum(int x, int y);
 //void printf_char(char ch, int count);
-//void fruit(void);
+void fruit(int count);
 int factorial(int count);
 
 // 메인함수
@@ -35,14 +35,15 @@ int main(void)
     */
 
 
-    //fruit(1);
+    fruit(1);
 
     int res = factorial(10);
     printf("result = %d \n",res);
 
 
     system("pause");
-    return EXIT_SUCCESS;
+    //return EXIT_SUCCESS;
+    return 0;
     
 }
 /*
@@ -86,4 +87,13 @@ int factorial(int count)
         return 1;
     }
     return count * factorial(count - 1);
+}
+void fruit(int count)
+{
+    printf("apple \n");
+    if (count == 3)
+    {
+        fruit(count + 1);
+    }
+    printf("jam \n");
 }

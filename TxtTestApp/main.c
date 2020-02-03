@@ -18,7 +18,7 @@ int main(void)
 
 		int n;
 
-		FILE* fp = fopen("test.txt", "rt");
+		FILE* fp = fopen("D:\document", "rt");
 
 
 
@@ -30,22 +30,16 @@ int main(void)
 
 		}
 
-
-
 		while (1) {
 
 			ch = fgetc(fp);
 
-
-
 			if (ch == EOF)
-
+			{
 				break;
-
-
+			}
 
 			putchar(ch);
-
 		}
 
 		fclose(fp);
