@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrTestApp", "StrTestApp\St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassTest1", "ClassTest1\ClassTest1.vcxproj", "{FEB32D26-B6CC-46F7-B164-F5CF721B989A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch13", "Ch13", "{AB1BA7E5-3799-4DD6-834C-1CA53424484B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
