@@ -25,15 +25,20 @@ int main(void)
 
     a.next = &b;
     b.next = &c;
-    /* 값, 주소확인
-    printf("%d \n", a.num);
+
+    // 값, 주소확인
+   /* printf("%d \n", a.num);
     printf("%u \n", &a);
     printf("%u \n", &a.next);
     printf("%u \n", &b.num);
     printf("%d \n", b.num);
     printf("%u \n", &b.next);
-    printf("%u \n", &b);
-    */
+    printf("%u \n", &b); 
+    printf("%u \n", &c.num);
+    printf("%d \n", c.num);
+    printf("%u \n", &c.next);
+    printf("%u \n", &c);*/
+    
     printf("head->num :%d \n", head->num);
     printf("head->next->num :%d \n", head->next->num);
 
